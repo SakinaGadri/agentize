@@ -140,7 +140,7 @@ const CaseStudies = () => {
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
                   <Link to="/contact">
-                    Book a 20-min assessment
+                    Book a 20-min automation audit
                     <ArrowUpRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>

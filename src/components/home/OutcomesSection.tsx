@@ -4,18 +4,18 @@ import { Card } from "@/components/ui/card";
 const outcomes = [
   {
     icon: TrendingUp,
-    title: "Replace 2–3 SDRs with automation",
-    description: "Save $150K+/year while increasing outreach quality and consistency",
+    title: "Replace 2–3 SDRs",
+    description: "Save $150K+ annually while scaling personalized outreach on autopilot.",
   },
   {
     icon: Clock,
-    title: "Give AEs 10+ hours back weekly",
-    description: "Auto briefs, follow-ups, and admin work so they can focus on selling",
+    title: "Give AEs 10+ hours back every week",
+    description: "Automate meeting briefs, recaps, and follow-ups - so they stay in selling mode.",
   },
   {
     icon: Database,
-    title: "Cleaner CRM & better forecasts",
-    description: "AI hygiene alerts keep your data accurate and pipeline predictable",
+    title: "Cleaner CRM, sharper forecast",
+    description: "AI keeps your CRM updated so leadership can actually trust the numbers.",
   },
 ];
 
@@ -25,10 +25,10 @@ export function OutcomesSection() {
       <div className="container px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Real outcomes for SaaS teams
+            Grow pipeline, not your team
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Stop adding headcount. Start automating the repetitive work.
+            Free your team from busywork and watch output multiply
           </p>
         </div>
 

@@ -25,7 +25,7 @@ export function Footer() {
               <span className="text-xl font-bold text-primary">Agentize.</span>
             </Link>
             <p className="mt-4 max-w-md text-sm text-muted-foreground">
-              Automate your sales engine. We design AI + automation workflows that replace repetitive SDR, AE, and CS tasks.
+              Automate your sales engine. AI + automation workflows that help your team hit quota consistently and systemically.
             </p>
             <div className="mt-6 flex gap-4">
               <a
@@ -79,7 +79,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 Agentize. — Automate your sales engine.</p>
+          <p>© 2025 Agentize. Automate your sales engine.</p>
         </div>
       </div>
     </footer>

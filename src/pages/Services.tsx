@@ -160,7 +160,7 @@ const Services = () => {
                 Not sure where to start?
               </h2>
               <p className="mt-4 text-lg opacity-90">
-                Book a free 20-minute assessment. We'll identify your top 3 automation opportunities.
+                Book a free 20-minute automation audit. We'll identify your top 3 automation opportunities.
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">

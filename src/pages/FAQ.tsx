@@ -20,7 +20,7 @@ const faqs = [
       },
       {
         q: "What's the first step?",
-        a: "Book a free 20-minute assessment. We'll audit your current stack, identify bottlenecks, and map out 3–5 automation opportunities with estimated ROI. No commitment required.",
+        a: "Book a free 20-minute automation audit. We'll audit your current stack, identify bottlenecks, and map out 3–5 automation opportunities with estimated ROI. No commitment required.",
       },
       {
         q: "Do we need technical expertise?",

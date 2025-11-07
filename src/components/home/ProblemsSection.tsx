@@ -5,28 +5,33 @@ const problems = [
   {
     icon: AlertCircle,
     title: "Slow lead intake",
-    description: "Manual lead capture and enrichment slows down your funnel",
+    description: "Manual enrichment and form routing delay your best opportunities.",
   },
   {
     icon: MessageSquare,
     title: "Generic outreach",
-    description: "SDRs can't personalize at scale without automation",
+    description: "Reps sound the same because personalization doesn’t scale manually.",
   },
   {
     icon: FileSearch,
     title: "Time-consuming demo prep",
-    description: "AEs spend hours researching instead of selling",
+    description: "AEs burn hours researching prospects instead of running meetings.",
   },
   {
     icon: Send,
     title: "Inconsistent follow-ups",
-    description: "Deals fall through the cracks without automated reminders",
+    description: "Deals go cold when reminders depend on memory.",
   },
   {
     icon: BarChart,
     title: "Manual reporting",
-    description: "Leadership wastes time pulling data from multiple sources",
+    description: "Leadership wastes hours pulling data that’s already in the CRM.",
   },
+  {
+    icon: AlertCircle,
+    title: "Messy CRM data",
+    description: "Forecasts fail when key deal info goes missing.", 
+  }
 ];
 
 export function ProblemsSection() {

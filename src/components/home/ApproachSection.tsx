@@ -35,7 +35,7 @@ export function ApproachSection() {
       <div className="container px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Our 5-pillar approach
+            Automate every stage of your sales funnel
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
             End-to-end automation across your entire sales and CS workflow

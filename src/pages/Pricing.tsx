@@ -151,11 +151,11 @@ const Pricing = () => {
                 Ready to start automating?
               </h2>
               <p className="mt-4 text-lg opacity-90">
-                Book a 20-minute assessment to discuss which package fits your needs.
+                Book a 20-minute automation audit to discuss which package fits your needs.
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-                  <Link to="/contact">Book a 20-min assessment</Link>
+                  <Link to="/contact">Book a 20-min automation audit</Link>
                 </Button>
               </div>
             </div>
