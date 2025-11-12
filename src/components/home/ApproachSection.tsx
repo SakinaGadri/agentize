@@ -42,7 +42,7 @@ export function ApproachSection() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 center">
           {pillars.map((pillar, index) => (
             <Card
               key={pillar.title}
@@ -58,11 +58,11 @@ export function ApproachSection() {
           ))}
           
           {/* Empty card to complete the grid */}
-          <Card className="p-8 shadow-card border-2 border-dashed border-border flex items-center justify-center bg-secondary/30 animate-fade-up" style={{ animationDelay: "0.5s" }}>
+          {/* <Card className="p-8 shadow-card border-2 border-dashed border-border flex items-center justify-center bg-secondary/30 animate-fade-up" style={{ animationDelay: "0.5s" }}>
             <p className="text-center text-muted-foreground font-medium">
               Custom workflows tailored to your unique process
             </p>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

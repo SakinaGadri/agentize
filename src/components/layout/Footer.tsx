@@ -4,10 +4,10 @@ import { Mail, Linkedin } from "lucide-react";
 const footerLinks = {
   pages: [
     { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
+    // { name: "Services", href: "/services" },
+    // { name: "Pricing", href: "/pricing" },
+    // { name: "About", href: "/about" },
+    // { name: "Contact", href: "/contact" },
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy" },

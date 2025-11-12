@@ -21,9 +21,9 @@ export function FinalCTA() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
+            {/* <Button asChild variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
               <Link to="/pricing">View pricing</Link>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

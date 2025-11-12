@@ -6,11 +6,11 @@ import { cn } from "@/lib/utils";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "How It Works", href: "/how-it-works" },
-  { name: "Case Studies", href: "/case-studies" },
-  { name: "About", href: "/about" },
+  // { name: "Services", href: "/services" },
+  // { name: "Pricing", href: "/pricing" },
+  // { name: "How It Works", href: "/how-it-works" },
+  // { name: "Case Studies", href: "/case-studies" },
+  // { name: "About", href: "/about" },
   { name: "FAQ", href: "/faq" },
 ];
 
