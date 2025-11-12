@@ -8,11 +8,10 @@ export function FinalCTA() {
       <div className="container px-4 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            Ready to automate revenue?
+            Scale your pipeline without adding headcount
           </h2>
           <p className="mt-6 text-lg opacity-90">
-            Let's identify 3–5 quick-win automations in your sales workflow. 
-            No commitment required.
+          We’ll audit your sales stack and pinpoint 3–5 automations that deliver measurable ROI in under 30 days.
           </p>
           
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">

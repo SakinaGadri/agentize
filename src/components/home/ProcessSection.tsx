@@ -5,25 +5,25 @@ const steps = [
     number: "01",
     icon: Search,
     title: "Diagnose",
-    description: "We audit your tech stack and identify quick-win automation opportunities",
+    description: "We audit your sales stack, uncover bottlenecks, and spot high-impact automation opportunities.",
   },
   {
     number: "02",
     icon: Pencil,
     title: "Design",
-    description: "Create custom workflows with proper data models and error handling",
+    description: "We design automations tailored to your funnel - built for reliability, data accuracy, and speed.",
   },
   {
     number: "03",
     icon: Rocket,
     title: "Deploy",
-    description: "Build in sandbox, QA rigorously, then launch with user acceptance testing",
+    description: "We roll out in sandbox first, test rigorously, and go live only when everything runs smooth.",
   },
   {
     number: "04",
     icon: GraduationCap,
     title: "Enable",
-    description: "Train your team with video guides, documentation, and KPI dashboards",
+    description: "We train your AEs and managers with short video guides, KPI dashboards, and always-on support.",
   },
 ];
 
@@ -36,7 +36,7 @@ export function ProcessSection() {
             How it works
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            From audit to automation in 4 steps
+            From messy workflows to automated revenue in 4 steps.
           </p>
         </div>
 

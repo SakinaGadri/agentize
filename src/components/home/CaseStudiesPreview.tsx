@@ -5,8 +5,8 @@ import { ArrowUpRight, TrendingUp } from "lucide-react";
 
 const caseStudies = [
   {
-    company: "Seed SaaS",
-    industry: "DevTool",
+    company: "Seed Stage",
+    industry: "Industrial IoT SaaS",
     result: "Replaced 2 SDRs, +31% demos in 30 days",
     metrics: [
       { label: "Demo increase", value: "+31%" },
@@ -16,7 +16,7 @@ const caseStudies = [
   },
   {
     company: "Series A",
-    industry: "Fintech",
+    industry: "Community SaaS Platform",
     result: "+12 hrs/wk per AE, faster closes",
     metrics: [
       { label: "Time saved", value: "12 hrs/wk" },
@@ -32,10 +32,10 @@ export function CaseStudiesPreview() {
       <div className="container px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Real results from real customers
+            Outcomes from systems we’ve built before
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            See how SaaS teams are scaling revenue with automation
+            These are the kinds of results you can expect when your team runs on automation.
           </p>
         </div>
 

@@ -70,10 +70,6 @@ const faqs = [
         a: "Yes. All our packages include ongoing monitoring, optimization, and support. Automation isn't set-and-forget—it requires continuous improvement as your business evolves.",
       },
       {
-        q: "What's your results guarantee?",
-        a: "If we don't ship an automation that saves 5+ hours per week in the first 30 days, we work for free until we do. No exceptions.",
-      },
-      {
         q: "Can we start small and scale?",
         a: "Absolutely. Many clients start with the Starter package to test one automation workflow, then scale to Growth or Scale as they see results.",
       },

@@ -5,27 +5,27 @@ const pillars = [
   {
     icon: Filter,
     title: "Top-of-Funnel",
-    description: "Automated lead capture, enrichment, ICP scoring, and personalized outreach",
+    description: "Capture, qualify, and prioritize leads automatically while also personalizing outreach at scale.",
   },
   {
     icon: Target,
     title: "Middle-of-Funnel",
-    description: "Smart demo scheduling, pre-meeting research briefs, and automated recaps",
+    description: "Book demoes and answer prospects faster, while always being prepared for meetings with your custom-built AI Assistant.",
   },
   {
     icon: Handshake,
     title: "Bottom-of-Funnel",
-    description: "Auto follow-ups, proposal generation, and RFP assistance to close faster",
+    description: "Automated proposal generation, custom negotiation strategies, and RFP assistance to help close deals days faster.",
   },
   {
     icon: BarChart3,
     title: "Management",
-    description: "AI-powered pipeline digests, CRM hygiene alerts, and accurate forecasting",
+    description: "Automate reporting, forecasting, and CRM hygiene, and get a custom AI Assistant that lets leadership query deals in real time, eliminating manual pipeline reviews.",
   },
   {
     icon: Users,
     title: "Customer Success",
-    description: "Seamless onboarding handoff, usage alerts, and renewal preparation docs",
+    description: "Automate onboarding and renewals to retain customers effortlessly.",
   },
 ];
 
@@ -38,7 +38,7 @@ export function ApproachSection() {
             Automate every stage of your sales funnel
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            End-to-end automation across your entire sales and CS workflow
+          End-to-end automation across your entire sales and CS workflow
           </p>
         </div>
 

@@ -10,15 +10,15 @@ import {
 const faqs = [
   {
     question: "How fast can we see results?",
-    answer: "Most teams see their first automation wins within 14–21 days. We prioritize quick wins that demonstrate clear ROI, then expand to more complex workflows.",
+    answer: "Most teams see measurable results in 14–21 days, usually in the form of time saved or more demos booked. We start with quick-win automations that prove ROI fast, then expand into deeper systems once you see value.",
   },
   {
     question: "Which tools do you support?",
-    answer: "We work with HubSpot, Salesforce, Apollo, Clay, Zapier, ChatGPT, Instantly, BuiltWith, PandaDoc, Calendly, Slack, and more. If you use it, we can likely automate it.",
+    answer: "We specialize in SaaS sales stacks built on tools like HubSpot, Salesforce, Apollo, Clay, Zapier, ChatGPT, Instantly, BuiltWith, PandaDoc, Calendly, and Slack.",
   },
   {
     question: "Will automation replace my team?",
-    answer: "No. Automation amplifies your team by eliminating repetitive tasks. SDRs can focus on high-value conversations, AEs can spend more time closing, and managers get better insights.",
+    answer: "Not at all. Automation doesn’t replace people, it removes busywork so they can do their best work. SDRs focus on meaningful conversations, AEs focus on closing, and leaders finally get the data visibility they’ve been missing.",
   },
 ];
 
@@ -31,7 +31,7 @@ export function FAQPreview() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Quick answers to common questions about sales automation
+            Get straight answers about timelines, tools, and team impact.
           </p>
         </div>
 

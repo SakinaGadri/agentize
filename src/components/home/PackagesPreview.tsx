@@ -6,22 +6,22 @@ import { Check } from "lucide-react";
 const packages = [
   {
     name: "Starter",
-    setup: "$3,000",
-    monthly: "$750",
-    features: ["Lead capture & enrichment", "AI-powered openers", "Calendly automation", "Recap emails", "Slack digests"],
+    setup: "from $3,000",
+    monthly: "from $750",
+    features: ["Automate lead capture, enrichment, and personalized outreach so reps spend time selling, not researching."],
   },
   {
     name: "Growth",
-    setup: "$6,000",
-    monthly: "$1,500",
-    features: ["Everything in Starter", "ICP scoring", "Pre-demo briefs", "Proposal automation", "CRM hygiene alerts"],
+    setup: "from $6,000",
+    monthly: "from $1,500",
+    features: ["Automate demo scheduling, AI-powered briefs, follow-ups, and proposal generation for faster closes."],
     popular: true,
   },
   {
     name: "Scale",
-    setup: "$12,000",
-    monthly: "$3,000",
-    features: ["Everything in Growth", "Full CS automation", "Leadership reporting", "Custom workflows", "Priority support"],
+    setup: "from $12,000",
+    monthly: "from $3,000",
+    features: ["Automate reporting, forecasting, customer success handoffs, and a custom AI Assistant for real-time deal insights."],
   },
 ];
 
@@ -31,10 +31,10 @@ export function PackagesPreview() {
       <div className="container px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Packages built for every stage
+          Tailored automation projects for every growth stage
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Start small or go all-in. Scale as you grow.
+            We scope based on your tech stack and goals.
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export function PackagesPreview() {
 
         <div className="text-center mt-12">
           <Button asChild variant="ghost" size="lg">
-            <Link to="/pricing">Compare all packages →</Link>
+            <Link to="/pricing">Setup fees cover design, build, and deployment. Monthly fees cover monitoring, optimization, and ongoing support as your stack evolves. →</Link>
           </Button>
         </div>
       </div>
