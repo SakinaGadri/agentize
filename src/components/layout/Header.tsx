@@ -39,11 +39,11 @@ export function Header() {
         </div>
 
         <div className="hidden lg:flex lg:items-center lg:gap-4">
-          <Button asChild variant="outline">
-            <Link to="/contact">Contact</Link>
-          </Button>
+          {/* <Button asChild variant="outline">
+            <Link to="https://calendly.com/asafdarii/chat">Contact</Link>
+          </Button> */}
           <Button asChild variant="hero">
-            <Link to="/contact">Book a 20-min automation audit</Link>
+            <Link to="https://calendly.com/asafdarii/chat">Book a 20-min automation audit</Link>
           </Button>
         </div>
 
@@ -77,11 +77,11 @@ export function Header() {
             </Link>
           ))}
           <div className="space-y-2 pt-4">
-            <Button asChild variant="outline" className="w-full">
-              <Link to="/contact">Contact</Link>
-            </Button>
+            {/* <Button asChild variant="outline" className="w-full">
+              <Link to="https://calendly.com/asafdarii/chat">Contact</Link>
+            </Button> */}
             <Button asChild variant="hero" className="w-full">
-              <Link to="/contact">Book a 20-min automation audit</Link>
+              <Link to="https://calendly.com/asafdarii/chat">Book a 20-min automation audit</Link>
             </Button>
           </div>
         </div>

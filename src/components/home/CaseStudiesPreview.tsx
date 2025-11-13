@@ -71,14 +71,14 @@ export function CaseStudiesPreview() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Button asChild variant="outline" size="lg">
             <Link to="/case-studies">
               View all case studies
               <ArrowUpRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

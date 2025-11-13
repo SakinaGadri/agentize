@@ -8,16 +8,16 @@ const tools = [
   { name: "Apollo", logo: "https://mma.prnewswire.com/media/2153232/Apollo_logotype_OnWhite_Logo.jpg" },
   { name: "Clay", logo: "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/664ffc89ff539b531cc46813_Clay-logo-black-2024.webp" },
   { name: "Instantly", logo: "https://autogpt.net/wp-content/uploads/2025/06/instantly_logo.jpg" },
-  { name: "Slack", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" },
+  { name: "Slack", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2560px-Slack_Technologies_Logo.svg.png" },
   { name: "Salesforce", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1280px-Salesforce.com_logo.svg.png" },
   { name: "ChatGPT", logo: "https://vectorseek.com/wp-content/uploads/2023/10/ChatGPT-Vertical-Logo-Vector.svg-.png" },
   { name: "Calendly", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMs1pNrfnYzDVKq1lfuijA5SaOm9RVEvPhJA&s" },
   { name: "Fireflies", logo: "https://cdn.prod.website-files.com/631ca8c577b6834a20a1071a/6618891600dff4e458dbc561_p1c-ARalIJ-mHxFwXA5C-YdHv6c6Ljl2fMj-59wpDi8.png" },
-  { name: "Pandadoc", logo: "https://upload.wikimedia.org/wikipedia/commons/1/11/PandaDoc_logo.png" },
-  { name: "Intercom", logo: "https://upload.wikimedia.org/wikipedia/commons/3/33/Intercom_Logo_2020.svg" },
-  {name: "Notion", logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" },
-  {name: "Mixpanel", logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Mixpanel_logo.png" },
-  {name: "Zendesk", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Zendesk_logo.svg" },
+  { name: "Pandadoc", logo: "https://cdn-public.softwarereviews.com/production/logos/offerings/5820/original/PandaDoc_Logo_PNG.png" },
+  { name: "Intercom", logo: "https://cdn.freebiesupply.com/logos/large/2x/intercom-1-logo-png-transparent.png" },
+  {name: "Notion", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwI-YH2DFRO-mGC0sjo-Kin7So9bhNxt_YQ&s" },
+  {name: "Mixpanel", logo: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mixpanel_full_logo_%E2%80%93_purple.png" },
+  {name: "Zendesk", logo: "https://help.brevo.com/hc/article_attachments/21014957272722" },
 ];
 
 export function HeroSection() {
@@ -34,14 +34,14 @@ export function HeroSection() {
           
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.2s" }}>
             <Button asChild variant="hero" size="lg">
-              <Link to="/contact">
+              <Link to="https://calendly.com/asafdarii/chat">
                 Book a 20-min automation audit
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg">
+            {/* <Button asChild variant="outline" size="lg">
               <Link to="/pricing">See packages</Link>
-            </Button>
+            </Button> */}
           </div>
 
           <div className="mt-16 animate-fade-up" style={{ animationDelay: "0.3s" }}>

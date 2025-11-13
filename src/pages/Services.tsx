@@ -164,7 +164,7 @@ const Services = () => {
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-                  <Link to="/contact">Book your free assessment</Link>
+                  <Link to="https://calendly.com/asafdarii/chat">Book your free assessment</Link>
                 </Button>
               </div>
             </div>

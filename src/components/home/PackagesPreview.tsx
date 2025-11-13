@@ -6,21 +6,21 @@ import { Check } from "lucide-react";
 const packages = [
   {
     name: "Starter",
-    setup: "from $3,000",
-    monthly: "from $750",
+    setup: "$3,000",
+    monthly: "$750",
     features: ["Automate lead capture, enrichment, and personalized outreach so reps spend time selling, not researching."],
   },
   {
     name: "Growth",
-    setup: "from $6,000",
-    monthly: "from $1,500",
+    setup: "$6,000",
+    monthly: "$1,500",
     features: ["Automate demo scheduling, AI-powered briefs, follow-ups, and proposal generation for faster closes."],
     popular: true,
   },
   {
     name: "Scale",
-    setup: "from $12,000",
-    monthly: "from $3,000",
+    setup: "$12,000",
+    monthly: "$3,000",
     features: ["Automate reporting, forecasting, customer success handoffs, and a custom AI Assistant for real-time deal insights."],
   },
 ];
@@ -56,10 +56,12 @@ export function PackagesPreview() {
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold mb-2">{pkg.name}</h3>
                 <div className="text-sm text-muted-foreground mb-4">
-                  <span className="text-3xl font-bold text-foreground">{pkg.setup}</span> setup
+                <span className="text font-bold text-foreground">from </span>
+                  <span className="text-3xl font-bold text-foreground">{pkg.setup} setup</span>
                 </div>
                 <div className="text-sm text-muted-foreground">
-                  <span className="text-2xl font-bold text-foreground">{pkg.monthly}</span>/mo
+                  <span className="text font-bold text-foreground">from </span>
+                  <span className="text-2xl font-bold text-foreground">{pkg.monthly}/mo</span>
                 </div>
               </div>
 
@@ -72,17 +74,18 @@ export function PackagesPreview() {
                 ))}
               </ul>
 
-              <Button asChild variant={pkg.popular ? "hero" : "outline"} className="w-full">
+              {/* <Button asChild variant={pkg.popular ? "hero" : "outline"} className="w-full">
                 <Link to="/pricing">View Details</Link>
-              </Button>
+              </Button> */}
             </Card>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <Button asChild variant="ghost" size="lg">
-            <Link to="/pricing">Setup fees cover design, build, and deployment. Monthly fees cover monitoring, optimization, and ongoing support as your stack evolves. →</Link>
-          </Button>
+          Setup fees cover design, build, and deployment. Monthly fees cover monitoring, optimization, and ongoing support as your stack evolves. →
+          {/* <Button asChild variant="ghost" size="lg">
+            <Link to="/pricing"></Link>
+          </Button> */}
         </div>
       </div>
     </section>

@@ -63,7 +63,7 @@ const About = () => {
                     </p>
                     <div className="flex justify-center lg:justify-start">
                       <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/abbas-safdari786/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-accent transition-colors"
@@ -159,7 +159,7 @@ const About = () => {
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-                  <Link to="/contact">Book a 20-min assessment</Link>
+                  <Link to="https://calendly.com/asafdarii/chat">Book a 20-min assessment</Link>
                 </Button>
               </div>
             </div>

@@ -7,7 +7,7 @@ const footerLinks = {
     // { name: "Services", href: "/services" },
     // { name: "Pricing", href: "/pricing" },
     // { name: "About", href: "/about" },
-    // { name: "Contact", href: "/contact" },
+    // { name: "Contact", href: "https://calendly.com/asafdarii/chat" },
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy" },
@@ -29,7 +29,7 @@ export function Footer() {
             </p>
             <div className="mt-6 flex gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/abbas-safdari786/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
@@ -37,7 +37,7 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:hello@agentize.com"
+                href="mailto:abbasyounus@gmail.com"
                 className="text-muted-foreground hover:text-accent transition-colors"
               >
                 <Mail className="h-5 w-5" />

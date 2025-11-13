@@ -194,7 +194,7 @@ const HowItWorks = () => {
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-                  <Link to="/contact">Request a stack audit</Link>
+                  <Link to="https://calendly.com/asafdarii/chat">Request a stack audit</Link>
                 </Button>
               </div>
             </div>

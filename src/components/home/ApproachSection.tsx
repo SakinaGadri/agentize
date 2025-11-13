@@ -42,7 +42,7 @@ export function ApproachSection() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 center">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {pillars.map((pillar, index) => (
             <Card
               key={pillar.title}
