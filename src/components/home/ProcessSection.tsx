@@ -44,9 +44,9 @@ export function ProcessSection() {
           {steps.map((step, index) => (
             <div key={step.title} className="relative animate-fade-up" style={{ animationDelay: `${index * 0.1}s` }}>
               {/* Connector line (hidden on mobile, shown on desktop) */}
-              {index < steps.length - 1 && (
+              {/* {index < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-12 left-full w-full h-0.5 bg-border z-0" />
-              )}
+              )} */}
               
               <div className="relative z-10">
                 <div className="flex items-center gap-4 mb-4">
