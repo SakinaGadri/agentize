@@ -119,7 +119,7 @@ const Pricing = () => {
                   </ul>
 
                   <Button asChild variant={pkg.popular ? "hero" : "outline"} className="w-full">
-                    <Link to="https://calendly.com/asafdarii/chat">Get Started</Link>
+                    <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Get Started</a>
                   </Button>
                 </Card>
               ))}
@@ -155,7 +155,7 @@ const Pricing = () => {
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-                  <Link to="https://calendly.com/asafdarii/chat">Book a 20-min automation audit</Link>
+                  <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Book a 20-min automation audit</a>
                 </Button>
               </div>
             </div>

@@ -42,11 +42,11 @@ export function ApproachSection() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
           {pillars.map((pillar, index) => (
             <Card
               key={pillar.title}
-              className="p-8 shadow-card hover:shadow-hover transition-all duration-300 border-border animate-fade-up group"
+              className="p-8 shadow-card hover:shadow-hover transition-all duration-300 border-border animate-fade-up group w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="rounded-lg bg-accent/10 w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">

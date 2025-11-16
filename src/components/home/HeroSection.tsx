@@ -34,10 +34,10 @@ export function HeroSection() {
           
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.2s" }}>
             <Button asChild variant="hero" size="lg">
-              <Link to="https://calendly.com/asafdarii/chat">
+              <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">
                 Book a 20-min automation audit
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
+              </a>
             </Button>
             {/* <Button asChild variant="outline" size="lg">
               <Link to="/pricing">See packages</Link>
