@@ -9,7 +9,7 @@ import Pricing from "./pages/Pricing";
 import HowItWorks from "./pages/HowItWorks";
 import CaseStudies from "./pages/CaseStudies";
 import About from "./pages/About";
-import Contact from "./pageshttps://calendly.com/asafdarii/chat";
+import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
 
@@ -28,7 +28,7 @@ const App = () => (
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/about" element={<About />} /> */}
-          {/* <Route path="https://calendly.com/asafdarii/chat" element={<Contact />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/faq" element={<FAQ />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

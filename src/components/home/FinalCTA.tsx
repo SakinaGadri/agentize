@@ -16,10 +16,10 @@ export function FinalCTA() {
           
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-              <Link to="https://calendly.com/asafdarii/chat">
+              <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">
                 Book a 20-min automation audit
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
+              </a>
             </Button>
             {/* <Button asChild variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
               <Link to="/pricing">View pricing</Link>
