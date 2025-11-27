@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Logo from "./Logo";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -22,7 +23,8 @@ export function Header() {
       <nav className="container flex h-16 items-center justify-between px-4 lg:px-8">
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold text-primary">Agentize.</span>
+          <Logo />
+            {/* <span className="text-xl font-bold text-primary">Agentize.</span> */}
           </Link>
           
           <div className="hidden lg:flex lg:gap-x-6">

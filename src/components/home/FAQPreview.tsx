@@ -24,13 +24,13 @@ const faqs = [
 
 export function FAQPreview() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-20 lg:py-28 gradient-hero text-primary-foreground">
       <div className="container px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Frequently asked questions
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 text-lg max-w-2xl mx-auto">
             Get straight answers about timelines, tools, and team impact.
           </p>
         </div>
@@ -42,7 +42,7 @@ export function FAQPreview() {
                 <AccordionTrigger className="text-left">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
+                <AccordionContent className="">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -50,7 +50,7 @@ export function FAQPreview() {
           </Accordion>
 
           <div className="text-center mt-8">
-            <Button asChild variant="ghost">
+            <Button asChild variant="secondary">
               <Link to="/faq">View all FAQs →</Link>
             </Button>
           </div>

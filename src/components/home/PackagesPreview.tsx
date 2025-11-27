@@ -8,20 +8,20 @@ const packages = [
     name: "Starter",
     setup: "$3,000",
     monthly: "$750",
-    features: ["Automate lead capture, enrichment, and personalized outreach so reps spend time selling, not researching."],
+    features: ["Automate Lead Capture and Enrichment", "Buyer Intent Detection using Custom-Built Signals", "Intelligent Lead Scoring", "Automate Prospect Research and Personalized Outreach"],
   },
   {
     name: "Growth",
     setup: "$6,000",
     monthly: "$1,500",
-    features: ["Automate demo scheduling, AI-powered briefs, follow-ups, and proposal generation for faster closes."],
+    features: ["Automate Demo Scheduling & Calendar Coordination", "Generate AI-Powered Research Briefs Before Every Call", "Automate Follow-Ups Across Email, CRM Tasks, and Slack Alerts", "Automated Proposal & Quote Generation", "Intelligent Deal Acceleration Signals (Stalled Deals, Ghosting, etc.)" ],
     popular: true,
   },
   {
     name: "Scale",
     setup: "$12,000",
     monthly: "$3,000",
-    features: ["Automate reporting, forecasting, customer success handoffs, and a custom AI Assistant for real-time deal insights."],
+    features: ["Automate Reporting, Forecasting, and CRM Hygiene", "Automate CS Handoffs, Onboarding, and Renewal Workflows", "AI-Generated Usage Alerts & Renewal Risk Signals", "Custom AI Assistant for Real-Time Deal & Pipeline Insights", "Cross-Funnel Automation Connecting Sales → CS → Leadership"],
   },
 ];
 
@@ -31,10 +31,10 @@ export function PackagesPreview() {
       <div className="container px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          Tailored automation projects for every growth stage
+          Automation projects tailored to your funnel and goals
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            We scope based on your tech stack and goals.
+            You only pay for the automations your team actually needs.
           </p>
         </div>
 
@@ -57,12 +57,12 @@ export function PackagesPreview() {
                 <h3 className="text-2xl font-bold mb-2">{pkg.name}</h3>
                 <div className="text-sm text-muted-foreground mb-4">
                 <span className="text font-bold text-foreground">from </span>
-                  <span className="text-3xl font-bold text-foreground">{pkg.setup} setup</span>
+                  <span className="text-3xl font-bold text-foreground">{pkg.setup}</span>
                 </div>
-                <div className="text-sm text-muted-foreground">
+                {/* <div className="text-sm text-muted-foreground">
                   <span className="text font-bold text-foreground">from </span>
                   <span className="text-2xl font-bold text-foreground">{pkg.monthly}/mo</span>
-                </div>
+                </div> */}
               </div>
 
               <ul className="space-y-3 mb-8">
@@ -81,12 +81,12 @@ export function PackagesPreview() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           Setup fees cover design, build, and deployment. Monthly fees cover monitoring, optimization, and ongoing support as your stack evolves. →
-          {/* <Button asChild variant="ghost" size="lg">
+          <Button asChild variant="ghost" size="lg">
             <Link to="/pricing"></Link>
-          </Button> */}
-        </div>
+          </Button>
+        </div> */}
       </div>
     </section>
   );

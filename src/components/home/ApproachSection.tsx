@@ -5,27 +5,27 @@ const pillars = [
   {
     icon: Filter,
     title: "Top-of-Funnel",
-    description: "Capture, qualify, and prioritize leads automatically while also personalizing outreach at scale.",
+    description: "Automate lead capture, enrichment, prioritization, and personalized outreach so pipeline grows without adding SDRs.",
   },
   {
     icon: Target,
     title: "Middle-of-Funnel",
-    description: "Book demoes and answer prospects faster, while always being prepared for meetings with your custom-built AI Assistant.",
+    description: "Automate demo scheduling, research briefs, and follow-ups so reps stay in selling mode.",
   },
   {
     icon: Handshake,
     title: "Bottom-of-Funnel",
-    description: "Automated proposal generation, custom negotiation strategies, and RFP assistance to help close deals days faster.",
+    description: "Automate proposals, negotiation prep, and RFP workflows to close deals faster.",
   },
   {
     icon: BarChart3,
     title: "Management",
-    description: "Automate reporting, forecasting, and CRM hygiene, and get a custom AI Assistant that lets leadership query deals in real time, eliminating manual pipeline reviews.",
+    description: "Automate reporting, forecasting, and CRM hygiene and get a real-time AI Assistant for leadership.",
   },
   {
     icon: Users,
     title: "Customer Success",
-    description: "Automate onboarding and renewals to retain customers effortlessly.",
+    description: "Automate onboarding, usage alerts, and renewal prep to retain customers effortlessly.",
   },
 ];
 
@@ -35,10 +35,10 @@ export function ApproachSection() {
       <div className="container px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Automate every stage of your sales funnel
+            Turn your sales funnel into a predictable, automated system.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-          End-to-end automation across your entire sales and CS workflow
+          Automate the manual steps that slow deals and stall growth.
           </p>
         </div>
 

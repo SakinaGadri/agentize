@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Linkedin } from "lucide-react";
+import Logo from "./Logo";
 
 const footerLinks = {
   pages: [
@@ -22,10 +23,11 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold text-primary">Agentize.</span>
+            <Logo />
+              {/* <span className="text-xl font-bold text-primary">Agentize.</span> */}
             </Link>
             <p className="mt-4 max-w-md text-sm text-muted-foreground">
-              Automate your sales engine. AI + automation workflows that help your team hit quota consistently and systemically.
+              Stop losing deals to slow, manual sales processes. Automate the busywork that slows your reps down and stalls your pipeline.
             </p>
             <div className="mt-6 flex gap-4">
               <a
@@ -79,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 Agentize. Automate your sales engine.</p>
+          <p>© 2025 Agentize. Stop losing deals to slow, manual sales processes.</p>
         </div>
       </div>
     </footer>

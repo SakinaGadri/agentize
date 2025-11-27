@@ -9,7 +9,7 @@ import { ProcessSection } from "@/components/home/ProcessSection";
 import { PackagesPreview } from "@/components/home/PackagesPreview";
 import { CaseStudiesPreview } from "@/components/home/CaseStudiesPreview";
 import { FAQPreview } from "@/components/home/FAQPreview";
-import { FinalCTA } from "@/components/home/FinalCTA";
+// import { FinalCTA } from "@/components/home/FinalCTA";
 
 const Index = () => {
   return (
@@ -18,13 +18,13 @@ const Index = () => {
       <main className="flex-1">
         <HeroSection />
         <OutcomesSection />
-        <ProblemsSection />
+        {/* <ProblemsSection /> */}
         <ApproachSection />
         <ProcessSection />
         <PackagesPreview />
         <CaseStudiesPreview />
         <FAQPreview />
-        <FinalCTA />
+        {/* <FinalCTA /> */}
       </main>
       <Footer />
       <StickyBookButton />
