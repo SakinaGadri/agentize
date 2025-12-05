@@ -45,7 +45,7 @@ export function Header() {
             <Link to="https://calendly.com/asafdarii/chat">Contact</Link>
           </Button> */}
           <Button asChild variant="hero">
-            <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Book a 20-min automation audit</a>
+            <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Book a 20-min consultation</a>
           </Button>
         </div>
 
@@ -83,7 +83,7 @@ export function Header() {
               <Link to="https://calendly.com/asafdarii/chat">Contact</Link>
             </Button> */}
             <Button asChild variant="hero" className="w-full">
-              <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Book a 20-min automation audit</a>
+              <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Book a 20-min consultation</a>
             </Button>
           </div>
         </div>

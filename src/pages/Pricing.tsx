@@ -151,11 +151,11 @@ const Pricing = () => {
                 Ready to start automating?
               </h2>
               <p className="mt-4 text-lg opacity-90">
-                Book a 20-minute automation audit to discuss which package fits your needs.
+                Book a 20-minute consultation to discuss which package fits your needs.
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-                  <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Book a 20-min automation audit</a>
+                  <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Book a 20-min consultation</a>
                 </Button>
               </div>
             </div>

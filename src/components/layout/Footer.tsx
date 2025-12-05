@@ -81,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 Agentize. Stop losing deals to slow, manual sales processes.</p>
+          <p>© 2025 Agentize. You’re not losing deals, your process is.</p>
         </div>
       </div>
     </footer>

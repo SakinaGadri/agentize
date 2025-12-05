@@ -132,7 +132,7 @@ const CaseStudies = () => {
           <div className="container px-4 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                Get your free automation audit
+                Get your free consultation
               </h2>
               <p className="mt-4 text-lg opacity-90">
                 Let's identify 3–5 quick-win automations in your sales workflow.
@@ -140,7 +140,7 @@ const CaseStudies = () => {
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
                   <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">
-                    Book a 20-min automation audit
+                    Book a 20-min consultation
                     <ArrowUpRight className="ml-2 h-5 w-5" />
                   </a>
                 </Button>

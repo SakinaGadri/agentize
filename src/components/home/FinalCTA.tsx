@@ -17,7 +17,7 @@ export function FinalCTA() {
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
               <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">
-                Book a 20-min automation audit
+                Book a 20-min consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>

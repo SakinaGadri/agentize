@@ -20,7 +20,7 @@ const faqs = [
       },
       {
         q: "What's the first step?",
-        a: "Book a free 20-minute automation audit. We'll audit your current stack, identify bottlenecks, and map out 3–5 automation opportunities with estimated ROI. No commitment required.",
+        a: "Book a free 20-minute consultation. We'll audit your current stack, identify bottlenecks, and map out 3–5 automation opportunities with estimated ROI. No commitment required.",
       },
       {
         q: "Do we need technical expertise?",
@@ -151,7 +151,7 @@ const FAQ = () => {
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
-                  <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Start your automation audit</a>
+                  <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer">Start your consultation</a>
                 </Button>
               </div>
             </div>

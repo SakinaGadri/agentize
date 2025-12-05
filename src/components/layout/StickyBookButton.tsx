@@ -8,7 +8,7 @@ export function StickyBookButton() {
       <Button asChild variant="hero" size="lg" className="shadow-2xl">
         <a href="https://calendly.com/asafdarii/chat" target="_blank" rel="noopener noreferrer" className="gap-2">
           <Calendar className="h-5 w-5" />
-          <span className="hidden sm:inline">Book a 20-min automation audit</span>
+          <span className="hidden sm:inline">Book a 20-min consultation</span>
           <span className="sm:hidden">Book Now</span>
         </a>
       </Button>
