@@ -26,10 +26,10 @@ export function HeroSection() {
       <div className="container px-4 py-20 lg:px-8 lg:py-32">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl animate-fade-up">
-            Stop losing deals <br /> to slow, manual sales processes.
+            You’re not losing deals, <br /> your process is.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Automate the busywork that slows your reps down and stalls your pipeline.
+            We automate your sales engine so you don't lose deals because of slow, manual, and inefficient sales processes.
           </p>
           
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.2s" }}>

@@ -27,7 +27,7 @@ export function Footer() {
               {/* <span className="text-xl font-bold text-primary">Agentize.</span> */}
             </Link>
             <p className="mt-4 max-w-md text-sm text-muted-foreground">
-              Stop losing deals to slow, manual sales processes. Automate the busywork that slows your reps down and stalls your pipeline.
+              You’re not losing deals, your process is. We automate your sales engine so you don't lose deals because of slow, manual, and inefficient sales processes.
             </p>
             <div className="mt-6 flex gap-4">
               <a
